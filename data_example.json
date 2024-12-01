@@ -4,7 +4,7 @@
   "invoice_number": "XXXXXX",
   "invoice_object": "Fusce sapien neque",
   "my_company": {
-    "name": "John Doe",
+    "name": "My Company",
     "adress": "1 rue de la mairie, 12345 Lorem",
     "phone_number": "+33 (0)1 02 03 04 05",
     "email": "lorem@ipsum.com",
@@ -28,7 +28,7 @@
     }
   ],
   "customer": {
-    "name": "Anna lores",
+    "name": "John Doe",
     "adress": "2 rue de la cité, 12345 Lorem",
     "siren": "123 456 789",
     "tva_intra": "FR01 123456789"

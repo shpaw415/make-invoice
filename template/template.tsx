@@ -60,7 +60,6 @@ export default function Template({
   items,
   customer,
   invoice_number,
-  ...data
 }: TemplateData) {
   const totalWoTax = items.reduce((p, n) => n.amount * n.unit_price + p, 0);
   const totalWithTax =
