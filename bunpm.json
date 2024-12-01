@@ -1,5 +1,3 @@
 {
-  "include": [
-    null
-  ]
+  "include": ["README.md", "template", "index.ts"]
 }

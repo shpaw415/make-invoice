@@ -8,8 +8,7 @@
     "react-dom": "18.3.1",
     "puppeteer": "23.9.0"
   },
-  "main": "./lib/make-invoice",
-  "bin": "./bin/make-invoice",
+  "main": "index.ts",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react-dom": "18.3.1"
