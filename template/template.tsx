@@ -43,7 +43,7 @@ export type TemplateData = {
     unit_price: number;
   }>;
   limit_date_paiement?: string;
-  paiement_mode: Array<{ kind: string }>;
+  paiement_mode?: Array<{ kind: string }>;
   legal_information?: string;
 };
 
