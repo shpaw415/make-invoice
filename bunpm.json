@@ -1,3 +1,8 @@
 {
-  "include": ["README.md", "template", "index.ts"]
+  "version": "0.0.1",
+  "include": [
+    "README.md",
+    "template",
+    "index.ts"
+  ]
 }

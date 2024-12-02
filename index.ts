@@ -8,8 +8,11 @@ class Invoice {
         const browser = await launch();
         const page = await browser.newPage();
         await page.setContent(renderToString(Template(data)));
-        await page.addStyleTag({ content: readFileSync("./template/style.css").toString("utf-8") })
-        return await page.pdf({ format: "A4" });
+        await page.addStyleTag({ content: readFileSync(`${import.meta.dirname}/template/style.css`).toString("utf-8") })
+        const pdf = await page.pdf({ format: "A4" });
+        page.close();
+        browser.close();
+        return pdf;
     }
 }
 
